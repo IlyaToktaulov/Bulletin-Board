@@ -1,0 +1,91 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-02/1676525211_catherineasquithgallery-com-p-fon-listva-zelenaya-246.jpg);
+}
+
+h2 {
+    color: dodgerblue;
+}
+
+.post-title-input {
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+.post__title {
+    font-weight: 700;
+}
+
+.post__text {
+    font-weight: 500;
+}
+
+.post-text-input {
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+.new-post-btn {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    width: 300px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    gap: 100px;
+}
+
+.errors {
+    margin-top: 30px;
+    color: red;
+}
+
+.post__date {
+    color: dodgerblue;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.col-left {
+    margin-left: 50px;
+}
+
+.col-right {
+    min-width: 530px;
+    margin-right: 50px;
+}
+
+.post {
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(105, 105, 105, 0.8);
+}
+
+.post__title {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.post__text {
+    font-size: 20px;
+}
